@@ -11,7 +11,7 @@ const maker = (dir, filter, callback) =>
   });
 
 module.exports = maker;
-
+// Why process.argv is not working with readdir functions?
 // function maker(dir, filter, callback) {
 //   fs.readdir(dir, (err, data) => {
 //     if (err) {
