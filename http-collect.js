@@ -8,7 +8,6 @@ http.get(url, (res) => {
   });
 
   res.on("end", () => {
-    console.log(dat.length);
     console.log(dat);
   });
 });
