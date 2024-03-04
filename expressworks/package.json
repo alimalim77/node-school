@@ -2,7 +2,7 @@
   "name": "expressworks",
   "version": "1.0.0",
   "description": "",
-  "main": "stylish-css.js",
+  "main": "param-pam-pam.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "crypto": "^1.0.1",
     "express": "^4.18.3",
     "jade": "^1.11.0"
   },
